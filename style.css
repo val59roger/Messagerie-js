@@ -1,0 +1,49 @@
+body{
+    font-family: monospace;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.affichage{
+    min-width: 400px;
+    width: 50%;
+    height: 200px;
+    margin: 0 0 10px 0;
+    border: solid 1px black;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+h1{
+    margin: 10px auto 10px auto;
+}
+
+#ajouter{
+    margin: 10px auto 10px auto;
+}
+
+/* question 15*/
+.texte{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px 0;
+}
+
+/* question 16*/
+.droite{
+    border: solid 1px #00FF00;
+    background-color: #AAFFAA;
+    margin-left: 100px;
+}
+
+/* question 17*/
+.gauche{
+    border: solid 1px #0000FF;
+    background-color: #AAAAFF;
+    margin-right: 100px;
+}
+   
